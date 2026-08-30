@@ -187,3 +187,84 @@ java HelloWorld
 ```
 Hello, Java 21!
 ```
+
+## 4. Online Simulator
+
+### 🥇 My first recommendation: myCompiler
+
+[myCompiler — Online Java 21 Compiler](https://www.mycompiler.io/online-java-compiler?utm_source=chatgpt.com)
+
+This is probably the **best fit for our course** because it currently runs **Java 21**, is free, requires no installation or sign-up, and supports syntax highlighting, autocomplete, multiple files, terminal/stdin, and sharing. ([myCompiler][1])
+
+For example, you can paste:
+
+```java
+public class Main {
+
+    public static void main(String[] args) {
+
+        String name = "David";
+
+        System.out.println(
+                "Hello " + name
+        );
+    }
+}
+```
+
+and immediately click **Run**.
+
+---
+
+### 🥈 OneCompiler
+
+[OneCompiler Java](https://onecompiler.org/java?utm_source=chatgpt.com)
+
+Very good alternative. It is free, supports Java, standard input/output, and even dependency management with Gradle. However, its current Java compiler runs **Java 25**, so for our **Java 21 course**, I would prefer myCompiler when we specifically want Java 21 behavior. ([OneCompiler][2])
+
+---
+
+### 🥉 Programiz
+
+[Programiz Online Compilers](https://www.programiz.com/?utm_source=chatgpt.com)
+
+Programiz is especially nice for **beginners** because it combines an online compiler with interactive programming lessons. ([Programiz][3])
+
+I'd use it when you want to learn a concept and practice it immediately.
+
+---
+
+### Other good choices
+
+| Tool            | Free | Java version              | Best for                  |
+| --------------- | ---- | ------------------------- | ------------------------- |
+| **myCompiler**  | ✅   | **Java 21**               | ⭐ Our course             |
+| **OneCompiler** | ✅   | Java 25                   | More advanced experiments |
+| **Programiz**   | ✅   | Java                      | Beginners + lessons       |
+| **JDoodle**     | ✅   | Multiple versions/options | Quick code testing        |
+| **Codiva**      | ✅   | Java                      | Simple Java learning      |
+
+JDoodle provides online Java compilers/editors and supports a broad range of programming languages. ([JDoodle][4]) Codiva is also designed specifically as an online Java compiler/IDE and supports interactive input. ([Codiva][5])
+
+### ⭐ What I recommend for _your_ Java course
+
+Since we've been building your lesson around **Java 21**, I would use:
+
+```text
+                 Your Java Course
+                       |
+                       v
+                  Java 21
+                       |
+                       v
+              ┌────────────────┐
+              │   myCompiler   │
+              │    Java 21     │
+              └────────────────┘
+                       |
+          +------------+------------+
+          |            |            |
+          v            v            v
+       Write         Run         Output
+        Code         Code         Result
+```
