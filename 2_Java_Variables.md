@@ -3883,5 +3883,3 @@ Understand local vs instance vs static variables
 ```
 
 Once you understand Java variables, you have the foundation needed to learn **Java data types, operators, conditions, loops, methods, classes, and object-oriented programming**.
-
-This is ready to save as **`Java_Variables.md`**.
